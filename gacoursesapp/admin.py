@@ -1,3 +1,4 @@
 from django.contrib import admin
+from gacoursesapp.models import Course
 
-# Register your models here.
+admin.site.register(Course)
